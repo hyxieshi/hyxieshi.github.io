@@ -277,6 +277,151 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/29/搭建博客的那些坑/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="写诗">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/29/搭建博客的那些坑/" itemprop="url">
+                  搭建博客的那些坑
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-06-29 14:45:12 / 修改时间：16:13:02" itemprop="dateCreated datePublished" datetime="2018-06-29T14:45:12+08:00">2018-06-29</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="基本搭建参考一下大佬博客和官方文档"><a href="#基本搭建参考一下大佬博客和官方文档" class="headerlink" title="基本搭建参考一下大佬博客和官方文档"></a>基本搭建参考一下大佬博客和官方文档</h3><p><a herf="http://ryane.top/2018/01/10/2018%EF%BC%8C%E4%BD%A0%E8%AF%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BA%86%EF%BC%81/">2018，你该搭建自己的博客了！</a><br><a herf="https://blog.csdn.net/mango_haoming/article/details/78199449">Hexo+Pages静态博客-搭建部署篇（同时部署github和coding)</a><br><a herf="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a><br><a herf="https://hexo.io/zh-cn/">快速、简洁且高效的博客框架</a></p>
+<h3 id="搭建博客的那些坑"><a href="#搭建博客的那些坑" class="headerlink" title="搭建博客的那些坑"></a>搭建博客的那些坑</h3><p><code>hexo d</code>报错显示<code>ERROR Deployer not found: git</code>不要急 可能是你的deployer没有安装成功重新执行一下命令重新安装一次就好<code>npm install hexo-deployer-git --save</code></p>
+<p>如果报错显示一大串代码请检查一下你<strong>站点文件</strong>下的_config.yml&gt;type是不是为git <em>每有双引号后面记得空格</em>或检查一下你的个人信息是否填写完整<br><code>$ git config –global user.name “ryanlijianchang”//用户名<br>$ git config –global user.email  “<a href="mailto:liji.anchang@163.com" target="_blank" rel="noopener">liji.anchang@163.com</a>“//填写自己的邮箱 </code><br>我昨天就是name eamli后面忘记空格卡了一下午 找不出原因。表示小白没有意识要空格</p>
+<p>博客库名一定要与你的github名称相同不然会显示<code>404</code>页面 比如我GitHub名称为hyxieshi 那你博客库名一定要设置为hyxieshi</p>
+<p>另外我想对next主题的语言设置吐槽一下 官方文档显示 简体中文==<code>zh-Hans</code> 实际我设置后并没有用要设置成<code>zh-CN</code> 才可以正常显示中文</p>
+<h3 id="搭建后的第一篇文章-哈哈哈"><a href="#搭建后的第一篇文章-哈哈哈" class="headerlink" title="搭建后的第一篇文章 哈哈哈"></a>搭建后的第一篇文章 哈哈哈</h3><p>至于为什么搭建 兴趣所致</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/28/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -449,7 +594,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
