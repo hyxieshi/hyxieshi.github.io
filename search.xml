@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>flask 学习笔记</title>
+      <link href="/2019/06/20/flask-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2019/06/20/flask-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="FLASK-学习笔记"><a href="#FLASK-学习笔记" class="headerlink" title="FLASK 学习笔记"></a>FLASK 学习笔记</h1><p> 有些东西看着有点懵</p><hr><h2 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h2><p>导入flask 模块<br>@app.route(‘路径’) 注册路由  注册= 装饰器 ‘/‘根路径url<br>url_for(‘传入的端’，’文件路径’)</p><hr><h2 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h2><p>模板 = 动态生成文件<br>子文件 trmplates<br>{{ 标记变量 }}     过滤器{{ 变量|过滤器 }}<br>{% 标记语句 如 if for 等 %}<br>{# 注释 #}</p><p>render_template( 文件（模板），值，值 )  值对应传值</p><hr><h2 id="静态文件"><a href="#静态文件" class="headerlink" title="静态文件"></a>静态文件</h2><p>静态文件 = 不需要动态生成的 js css<br>子目录 static</p><hr><h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><p>sqlalchemy_database_uri  数据库连接地址<br>app.config[‘配置 如上’]<br>数据库我没看懂 自己看<br>(<a href="https://github.com/greyli/flask-tutorial/blob/master/chapters/c5-database.md,&#39;flask" target="_blank" rel="noopener">https://github.com/greyli/flask-tutorial/blob/master/chapters/c5-database.md,&#39;flask</a> 数据库’)</p><hr><h2 id="模板优化"><a href="#模板优化" class="headerlink" title="模板优化"></a>模板优化</h2><p>404 页面<br>@app.errorhandler ( 参数 )    注册错误处理函数<br>模板优化 <a href="https://github.com/greyli/flask-tutorial/blob/master/chapters/c6-template2.md" target="_blank" rel="noopener">https://github.com/greyli/flask-tutorial/blob/master/chapters/c6-template2.md</a></p><hr><h2 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h2><p> request.path(请求路径)<br> request.method(请求方法’get’,’post’)<br> request.form(表单数据)<br> request.args(‘查询字符串’)<br> session 内置对象 flash(内存(将传入session对象中))<br> get_flashed_messages(获取消息)<br> redirect(重定向) 用于再次请求</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> flask </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> web </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>挑战中国</title>
+      <link href="/2019/04/08/%E6%8C%91%E6%88%98%E4%B8%AD%E5%9B%BD/"/>
+      <url>/2019/04/08/%E6%8C%91%E6%88%98%E4%B8%AD%E5%9B%BD/</url>
+      
+        <content type="html"><![CDATA[<p> 作为一位高中到处浪的的，到了大学生活圈越来越小，生活路线越来越单一的我，不甘寂寞的到处寻找各种活动。<br> 就是想遇见更多的同龄人，遇见你，遇见自己。</p><h3 id="开篇"><a href="#开篇" class="headerlink" title="开篇"></a>开篇</h3><p> 遇见Newth，遇见你们，遇见自己，遇见‘同路人’<br> 这三天遇见了来自全国各地的同龄人，一起做了以前想做却不敢做的事<br> 第一次拒绝者活动、第一次零元生存、第一次百里夜行、第一次住青旅、第一次为老板加钱开心、第一次为别人的一杯奶茶而开心<br> <img src="https://i.loli.net/2019/04/12/5caf740ce0836.jpg" alt="TIM图片20190411235824.jpg" title="TIM图片20190411235824.jpg"><br> <img src="https://i.loli.net/2019/04/12/5caf740ba430e.jpg" alt="TIM图片20190411235836.jpg" title="TIM图片20190411235836.jpg"></p><h3 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h3><h4 id="百里夜行"><a href="#百里夜行" class="headerlink" title="百里夜行"></a>百里夜行</h4><p> 我喜欢夜晚，喜欢一个人听着歌走在无人的街上，自审一天的事<br> 我喜欢夜晚，喜欢祖国的大好山河，喜欢拿着手机记录夜晚的每一刻<br> 百里夜行 无疑给我了一个记录橘子洲夜景的机会<br> 前半段不准说活，星大大说这一段路给我们自己探索自身，问自己究竟想要什么生活，给我时间静静的去思考。<br> 后半段 同龄人个个开始展现自己的各种才艺 来活跃队伍的气氛 让我真的佩服唱歌唱的那么好<br> 我们大概是从晚上七八点起一直到凌晨两点左右才到营地，我们坐在一起闭着眼仔细聆听–飘扬过海来看你，让我不禁想到世界那么大我们能相聚在一起何不是一种缘分呢！<br> （我们来自四面八方，生活在异国他乡，无数的沉默和彷徨，终于告别孤单······）<br> <img src="https://i.loli.net/2019/04/12/5caf7408f2ddb.jpg" alt="IMG_20190405_193013.jpg" title="IMG_20190405_193013.jpg"></p><h4 id="零元生存"><a href="#零元生存" class="headerlink" title="零元生存"></a>零元生存</h4><p> 没有手机，没有金钱，有的只有你的队友。<br> 我们需要生存24小时 虽然不长，但对于我们这种为尝试过的小萌新，也算是一种挑战。<br> 一开始 我们迷茫过 没有基本资金 有的 只有双手 晚上这么办 睡大街？？睡网吧？？午饭怎么办？？我想过放弃 想过叫朋友送点钱过来 想过各种违背游戏规则的方法<br> 但是都被我们的小组长给拒绝了 直言道 你过来不就是看中零元生存的嘛（应该不是原话，但是是这个意思）看她那表情还挺有意思的明明开玩笑的跟她讲她却一本正经的回绝你<br> 有时想想 这么坚决还有点可爱 (￣▽￣)”<br> 前半段我们一直在扯这扯那 还不如刘国平一杯奶茶来的实际 他要到的第一杯奶茶改变了我们的现状 让我们意识到这不是不可能的任务 最后我们有去做兼职的有在水果店抵押学生证换取橘子在外面溢价销售有给游客拍照的<br> 看着群中其他小组晒中饭 晒好吃的好玩的 不爽呀 ￣へ￣<br> 没办法呀 只能努力赚钱<br> <img src="https://i.loli.net/2019/04/12/5caf775696d87.png" alt=")HUJ_S_(3FL_G6T0HU(9IG1.png" title=")HUJ_S_(3FL_G6T0HU(9IG1.png"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p> 谢谢 Newth 让我遇见第五组 让我遇见这么多同龄人<br> 让我遇见了<br> 来自岳阳的组委小姐姐 咳咳 我可不信你没谈过恋爱（不过 说声对不起 有时候我太自私了）<br> 来自内蒙古的‘大汉’李晓彤–不掩饰的说是多少女生的青春！哈哈哈 不过别人可有女朋友了<br> 来自四川宜宾 有点让我看不懂的刘国平–━┳━　━┳━有时感觉平易近人有时有感觉拒人千里之外<br> 来自桂林的刘秋怡 嘿嘿我 可以是记得清清楚楚我们小组唯一带着相机的小姐姐<br> 来自湖工自学西巴牙语的小姐姐 庞雪娇小姐姐 那个你教我的几句西巴牙语我似乎忘了=-=<br> 来自广州 黄梦青小姐姐 哈哈哈 有时候想吃辣又怕辣可是辣条却吃的晶晶有味<br> 来自江西 财经专业的杨欣悦 零元生存的时候 买个东西 都要利益最大化=-=<br> 还有带我们吃遍长沙小吃的张慧敏 可惜我们五组因为时间原因没吃到最正宗的–臭豆腐<br> 另外我非常感谢组委小姐姐 ，黄青梦小姐姐和张慧敏小姐姐指出了我的错误 对一些事给了我许多建议<br> 最最最后 还有我们的小组长 嗯—-我也不知道说啥子了=-=<br> <!-- ### 写给你 ###       我不知道 什么时候对你有那么一丢丢喜欢 可能是在百里夜行的那段路程跟你聊了很多        也可能是被你的笑容吸引 让我在接下来的三天时间 特别想跟你靠近=-=       （别问我为什么 我也不知道 可能是那么一丢丢的喜欢）跟你以小组出去卖东西        我大概之前在广州 做推销做着有阴影 所有卖橘子 卖水 我磨磨唧唧的        不太愿意去推销 而你还在一个个去推销 争取把橘子全部卖出去        直到你跟一个小哥哥做推销 因为三观不合 被说哭时        我突然好心疼 感觉对不起你 同时感觉自己好没用  有我一个男的在         还要一个小女生出去卖东西 小女孩不应该是用来保护的嘛(っ °Д °;)っ        当时特别自责 所以但是接过你手中的橘子  希望卖出去来弥补我的过失        还有  每次你过马路时都在盯着手机 每次我都怕你踩空 摔跤 特别担心         有时候想提醒你 又怕你 说我多管闲事 直到我忍不住提醒你一下        走路别玩手机 你说了一句 这不是有你嘛        我······那种感觉你可能体会不到 我也不好怎么形容 被自己在意的人信任        我就=-=  彻底沦陷了        我喜欢你！        以至于 我回来后 总有一种患得患失的感觉  超级想你 是那种甜甜想夜夜想的那种        不知道什么时候会消失  嘿嘿 当然我也不希望消失这种感觉 我想一直有着         直到有着另一种身份去找你        另外 我自称的小直男 可不是白来的 说真的 网络聊天我真的不会聊=-=          每次都迫不及待的想跟你  可你又有事 没时间跟我聊=-=        呜呜呜 很悲伤          哈哈哈哈这就是我想对你说的。        妈呀！  脸红了 溜了溜了 睡觉去！白白！ --></p><h3 id="八点集合，江湖再见！"><a href="#八点集合，江湖再见！" class="headerlink" title="八点集合，江湖再见！"></a>八点集合，江湖再见！</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[开学前的准备]</title>
+      <link href="/2018/07/04/%E5%BC%80%E5%AD%A6%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87/"/>
+      <url>/2018/07/04/%E5%BC%80%E5%AD%A6%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87/</url>
+      
+        <content type="html"><![CDATA[<p> 六月的高考结束，一批学子即将进入大学。<br> 今天来盘点一些入学前的准备</p><h3 id="开学必备"><a href="#开学必备" class="headerlink" title="开学必备"></a>开学必备</h3><p>1.一寸二寸的红底寸照还有电子版的存照记得保存着（现在网络上各种美图软件~~~）<br>2.一些生活用品 生活用纸 收纳箱 洗漱用品 衣裤（别到时候什么都带了就衣服裤子没带那就 尴尬了 哈哈哈哈）台灯 插线板（推荐小米的）等。</p><p><img src="https://i.loli.net/2018/07/04/5b3c7874d980a.jpg" alt="bfbd819e44f82a27525a0f8bd3991cd4_hd.jpg" title="bfbd819e44f82a27525a0f8bd3991cd4_hd.jpg"><br><img src="https://i.loli.net/2018/07/04/5b3c7874d6f69.jpg" alt="19e9a292ac566b6d89a4e28e290c7366_hd.jpg" title="19e9a292ac566b6d89a4e28e290c7366_hd.jpg"><br><img src="https://i.loli.net/2018/07/04/5b3c7874e7e7b.jpg" alt="TB2ClxNckfb_uJkSnfoXXb_epXa_!!2122205220.jpg" title="TB2ClxNckfb_uJkSnfoXXb_epXa_!!2122205220.jpg"></p><h3 id="个人建议"><a href="#个人建议" class="headerlink" title="个人建议"></a>个人建议</h3><pre><code>接下来，是个人建议携带的</code></pre><p>1.咳咳 大学了 应该有一个属于自己的笔记本电脑吧 不建议购买台式电脑或自己组装电脑（理由：在大学晚上，似乎准时断电 你拿着台式机 干嘛呢  嗯 还是笔记本香！当然如果你知道你们大学晚上不断电 可以考虑）<br>2.小风扇 记得带一个买风大的 寝室头上的两个风扇=-=不够用啊（有空调的 咳咳咳 可以忽略这一条）<br>3.床上桌 比如这种。<br><img src="https://i.loli.net/2018/07/04/5b3c7bac3e754.jpg" alt="TB2UCccywmTBuNjy1XbXXaMrVXa_!!3368410239.jpg" title="TB2UCccywmTBuNjy1XbXXaMrVXa_!!3368410239.jpg"><br>4.路由器 推荐小米mini青春版路由器 对于晚上断电的宿舍来说，小米路由器青春版无疑是非常实用的。体积小，丢在角落没烦恼；价格便宜，学生党买得起（现在二手平台三四十块一个便宜还包邮）；配备Miscro USB，充电宝也能供电，不惧断电。<br>5.还是笔记本的=-=  对于不打游戏的同学来说 轻薄本 或万金油本无疑是最好的选择最好买新品 充电接口最好是usb—c的 这样充电宝都可以给笔记本充电（目前来看只有小米笔记本pro 不支持充电宝充电）另外目前买电子产品最好的时间在9月开学期间应该有优惠 买电子产品前先研究 对比 多看大佬们的测评。</p><h3 id="校园小指南"><a href="#校园小指南" class="headerlink" title="校园小指南"></a>校园小指南</h3><p>1.准备好云盘<br>2.记得要理财，不然有女朋友的大佬得吃土了<br>3.多跑步健身 多出去溜达溜达不要宅在寝室<br>4.有啥要考的证 尽早考完<br>5.多体验生活（打工 兼职 ）等<br>6.网络上有很多资源可以自行学习感兴趣的内容<br>7.加入社团 扩大交际圈<br>8.要善于发现机会、衔接机会、把握机会<br>9.学会管理时间</p><h3 id="重中之重"><a href="#重中之重" class="headerlink" title="重中之重"></a>重中之重</h3><p> 开学前这个暑假多出去走走 玩玩 以后感觉没什么时间这么嗨了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建博客的那些坑</title>
+      <link href="/2018/06/29/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%82%A3%E4%BA%9B%E5%9D%91/"/>
+      <url>/2018/06/29/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%82%A3%E4%BA%9B%E5%9D%91/</url>
+      
+        <content type="html"><![CDATA[<h3 id="基本搭建参考一下大佬博客和官方文档"><a href="#基本搭建参考一下大佬博客和官方文档" class="headerlink" title="基本搭建参考一下大佬博客和官方文档"></a>基本搭建参考一下大佬博客和官方文档</h3><p><a href="http://ryane.top/2018/01/10/2018%EF%BC%8C%E4%BD%A0%E8%AF%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BA%86%EF%BC%81/" target="_blank" rel="noopener">2018，你该搭建自己的博客了！</a><br><a href="https://blog.csdn.net/mango_haoming/article/details/78199449" target="_blank" rel="noopener">Hexo+Pages静态博客-搭建部署篇（同时部署github和coding)</a><br><a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a><br><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">快速、简洁且高效的博客框架</a></p><h3 id="搭建博客的那些坑"><a href="#搭建博客的那些坑" class="headerlink" title="搭建博客的那些坑"></a>搭建博客的那些坑</h3><p><code>hexo d</code>报错显示<code>ERROR Deployer not found: git</code>不要急 可能是你的deployer没有安装成功重新执行一下命令重新安装一次就好<code>npm install hexo-deployer-git --save</code></p><p>如果报错显示一大串代码请检查一下你<strong>站点文件</strong>下的_config.yml&gt;type是不是为git <em>每有双引号后面记得空格</em>或检查一下你的个人信息是否填写完整<br><code>$ git config –global user.name “ryanlijianchang”//用户名<br>$ git config –global user.email  “<a href="mailto:liji.anchang@163.com" target="_blank" rel="noopener">liji.anchang@163.com</a>“//填写自己的邮箱 </code><br>我昨天就是name eamli后面忘记空格卡了一下午 找不出原因。表示小白没有意识要空格</p><p>博客库名一定要与你的github名称相同不然会显示<code>404</code>页面 比如我GitHub名称为hyxieshi 那你博客库名一定要设置为hyxieshi</p><p>另外我想对next主题的语言设置吐槽一下 官方文档显示 简体中文==<code>zh-Hans</code> 实际我设置后并没有用要设置成<code>zh-CN</code> 才可以正常显示中文</p><h3 id="搭建后的第一篇文章-哈哈哈"><a href="#搭建后的第一篇文章-哈哈哈" class="headerlink" title="搭建后的第一篇文章 哈哈哈"></a>搭建后的第一篇文章 哈哈哈</h3><p>至于为什么搭建 兴趣所致</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/06/28/hello-world/"/>
+      <url>/2018/06/28/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
