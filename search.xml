@@ -33,19 +33,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/2019/07/11/vue%20%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91/"/>
-      <url>/2019/07/11/vue%20%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91/</url>
-      
-        <content type="html"><![CDATA[<h2 id="编译错误-无法找到模块"><a href="#编译错误-无法找到模块" class="headerlink" title="编译错误 无法找到模块"></a>编译错误 无法找到模块</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* ../../vue-temp/vue-editor-bridge in ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/ShowBlogs.vue?vue&amp;type=script&amp;lang=js&amp;</span><br></pre></td></tr></table></figure><h3 id="问题根源解决"><a href="#问题根源解决" class="headerlink" title="问题根源解决"></a>问题根源解决</h3><p> vscode 创建项目 会自行导入一个无法解析的func的代码块，长这副模样<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import func from &apos;../../vue-temp/vue-editor-bridge&apos;;</span><br></pre></td></tr></table></figure></p><h2 id="关于this-指向问题"><a href="#关于this-指向问题" class="headerlink" title="关于this 指向问题"></a>关于this 指向问题</h2><p> 在某些函数中，this指向的对象为<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">undefined</span><br></pre></td></tr></table></figure></p><p> 以至于 无效果</p><h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><p>建议只是用 es6 箭头函数 </p><h2 id="组件问题"><a href="#组件问题" class="headerlink" title="组件问题"></a>组件问题</h2> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">组件导入 import</span><br></pre></td></tr></table></figure><p> 每定义组件 如需要展示出来 需要在根文件components中使用</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>flask 学习笔记</title>
       <link href="/2019/06/20/flask-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
       <url>/2019/06/20/flask-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
